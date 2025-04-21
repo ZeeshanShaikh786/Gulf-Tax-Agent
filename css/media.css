@@ -1,0 +1,31 @@
+/* Dropdown on hover + animation */
+@media (min-width: 992px) {
+    .navbar .dropdown:hover .dropdown-menu {
+      display: block;
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+  }
+  
+  @media (max-width:768px){
+    .card-section {
+        background-color: #F6F6F6;
+        margin-top: 20px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+      }
+      .text-area h4 {
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+        font-size: 36px;
+        font-weight: 400;
+      }
+      .text-area p {
+        font-size: 20px;
+        margin-bottom: 45px;
+      }
+      .vatSectionText {
+        margin-top: 35px;
+    }
+  }
