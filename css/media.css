@@ -1,14 +1,45 @@
 /* Dropdown on hover + animation */
 @media (min-width: 992px) {
-    .navbar .dropdown:hover .dropdown-menu {
-      display: block;
-      opacity: 1;
-      visibility: visible;
-      transform: translateY(0);
-    }
+/* Initial hidden state */
+  .dropdown-menu {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    margin-top: 0;
+    border: none;
   }
+  .navbar .dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
   
   @media (max-width:768px){
+    .header {
+      background-color: #000;
+    }
+    .header button {
+      padding: 0;
+    }
+    .header button span {
+      color: white;
+      border: 1px solid white;
+      padding: 1px 6px;
+      border-radius: 4px;
+      block-size: 115px;
+    }
+    .header button span i {
+      color: white;
+    }
+    .header nav {
+      padding: 12px 0px;
+  }
+  .header img {
+    height: 34px;
+}
     .card-section {
         background-color: #F6F6F6;
         margin-top: 20px;
@@ -28,4 +59,26 @@
       .vatSectionText {
         margin-top: 35px;
     }
+    .dropdown-menu {
+      position: static !important;
+      transform: none !important;
+      opacity: 1 !important;
+      visibility: visible !important;
+      box-shadow: none;
+      padding-left: 1rem;
+      transform: translateY(10px);
+      transition: all 0.3s ease;
+    }
+    /* .banner {
+      margin-top: 68px !important;
+  } */
+  .footerContents {
+    text-align: center;
+  }
+  .footerContents .socialIcon ul {
+    justify-content: center;
+  }
+  .footerContent {
+    padding-left: 0;
+  }
   }
