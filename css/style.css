@@ -111,6 +111,7 @@
   }
   .cardText a {
     text-decoration: none;
+    color: #000;
   }
   .cardText p {
     font-size: 15px;
@@ -392,6 +393,8 @@
 }
 .sectionWelcome h1 {
   margin: 0;
+  font-family:Roboto Condensed, sans-serif;
+  font-weight: 400;
 }
 .sectionWelcome p {
   margin: 0;
@@ -435,4 +438,32 @@
 .aboutUsCardTxt:hover p {
   color: #000;
   transition: all .4s ease-in-out;
+}
+
+/* Why Us Page */
+.whyUsContents {
+  background-color: #f6f6f6;
+}
+.whyUsContentsTxt h5 {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #444;
+    margin-bottom: 10px;
+}
+.whyUsContentsTxt p {
+  font-size: 15px;
+}
+.whyUsContents h4 {
+    font-family: Roboto Condensed, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.whyUsContents ul {
+  padding-left: 0;
+}
+.whyUsContents ul li {
+  font-size: 15px;
+  line-height: 1.7;
+  list-style: none;
 }
