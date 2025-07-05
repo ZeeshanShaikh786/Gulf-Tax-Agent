@@ -173,6 +173,7 @@
     height: 100%;
     font-size: 16px;
     background-color: #F6F6F6;
+    border-radius: 3px;
     border: none;
     outline: none;
     margin: 20px 0px;
@@ -183,6 +184,7 @@
     margin: 20px 0;
     outline: none;
     background-color: #F6F6F6;
+    border-radius: 3px;
     border: none;
     padding: 15px;
 }
@@ -466,4 +468,22 @@
   font-size: 15px;
   line-height: 1.7;
   list-style: none;
+}
+.vatServicesContent {
+  padding: 40px 0;
+}
+.contactUs {
+  padding: 60px 0;
+}
+.contactUsBg {
+  background-color: #F6F6F6;
+  padding: 48px 20px;
+}
+.inputsBg input {
+  background-color: white;
+  outline: 1px solid #dddcdc
+}
+.inputsBg textarea {
+  background-color: white;
+  outline: 1px solid #dddcdc
 }
